@@ -5,11 +5,11 @@ ScratchCollective is full-stack application that uses neural style transfer to c
 We also provide a bridge and a how-to to sell your ScratchCollective NFT on the OpenSea marketplace.
 
 In this app, I leverage the MERN stack (MongoDB, Express, React Node) combined with:
-Interplanetary File System (IPFS)
-Metamask & the Ethereum Provider API
-web3.js
-eth-sig-util
-a custom ERC-1155 contract (Solidity)
+Interplanetary File System (IPFS),
+Metamask & the Ethereum Provider API,
+web3.js,
+eth-sig-util,
+a custom ERC-1155 contract (Solidity), and
 a python child process utilizing TensorFlow combined with the Arbitrary Image Stylization model
 
 One cool feature outside of the AI-Art Generation and the blockchain interaction is the automated login process based on your active Metamask wallet account.
