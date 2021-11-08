@@ -1,0 +1,37 @@
+{
+  "name": "scratchcollective",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eth-sig-util": "^3.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.2",
+    "fs": "0.0.1-security",
+    "imgur": "^2.0.0-next.6",
+    "ipfs-http-client": "^52.0.2",
+    "it-all": "^1.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "multer": "^1.4.3",
+    "request": "^2.88.2",
+    "tslib": "^2.3.1",
+    "web3": "^1.6.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
