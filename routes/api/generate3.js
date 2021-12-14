@@ -60,5 +60,3 @@ router.get("/", (req, res) => {
 });
 
 module.exports = router;
-
-// const checkComplete = async (req, res) => {};
